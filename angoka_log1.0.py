@@ -27,7 +27,7 @@ def angoka(x,y):
     out = out * li[-1]
     return out
 
-while True:
+if __name__ == __main__:
     x = int(input("暗号化する数 > "))
     y = int(input("暗号化の強さ(1以上) > "))
     print("\n "+str(angoka(x,y))+"\n")
