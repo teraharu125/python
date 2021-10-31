@@ -31,6 +31,6 @@ def nanbanme(ina):
             if ina == x: break
     return m
 
-while True:
+if __name__ == __main__:
     x = int(input(" > "))
     print("\n結果:   "+str(nanbanme(hitotsu(soinsu(x))))+"\n")
