@@ -1,2 +1,2 @@
-aaaa.wav
+default.wav
 5
